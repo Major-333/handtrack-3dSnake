@@ -1,0 +1,155 @@
+body {
+    padding: 1px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.canvasbox {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    margin-right: 10px;
+    width: 215px;
+    height: 162px;
+    border-radius: 20px;
+    perspective: 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+
+.mb10 {
+    margin-bottom: 10px
+}
+
+.mt10 {
+    margin-top: 10px
+}
+
+.updatenote {
+    padding: 10px;
+    background: rgb(245, 147, 20);
+    color: white;
+    display: inline;
+}
+
+
+.canvasbox2 {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    margin-right: 10px;
+    width: 215px;
+    height: 162px;
+    border-radius: 20px;
+    perspective: 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.result {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+    margin-right: 10px;
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    perspective: 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: linear-gradient(to bottom left, #EF8D9C 40%, #FFC39E 100%);
+}
+
+.btn {
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    margin-right: 10px;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    perspective: 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+
+
+
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+html {
+    display: grid;
+    min-height: 100%;
+}
+body {
+    display: grid;
+    overflow: hidden;
+    font-family: "Lato", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+h1 {
+    font-size: 0.9em;
+    font-weight: 100;
+    letter-spacing: 3px;
+    padding-top: 5px;
+    color: #FCFCFC;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+.red {
+    color: #e96075;
+}
+.alert {
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+.alert-min {
+    font-weight: 700;
+    letter-spacing: 5px;
+    font-size: 0.3em;
+}
+p {
+    margin-top: -5px;
+    font-size: 0.5em;
+    font-weight: 100;
+    color: #5e5e5e;
+    letter-spacing: 1px;
+}
+.shadow {
+    position: absolute;
+    width: 21%;
+    height: 3%;
+    opacity: .5;
+    background: #777777;
+    left: 40%;
+    top: 43%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.scale {
+    animation: scale 1s ease-in infinite;
+}
+
+.message {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    height: 60%;
+    top: 27%;
+}

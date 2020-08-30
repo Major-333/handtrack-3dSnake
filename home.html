@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <script src="lib/three.js"></script>
+    <script src="lib/Projector.js"></script>
+    <script src="lib/CanvasRenderer.js"></script>
+
+    <div id="canvas">
+        <div class="wrapper" style="display: block;" id="wrapper">
+            <div class="container">
+                <h1>Welcome to ju-snake</h1>
+                <br><br><br><br><br><br><br><br><br><br><br><br>
+                <form class="form">
+                    <button type="submit" id="start-button" >开始游戏</button>
+                    <button type="submit" id="intro-button" >游戏说明</button>
+                </form>
+            </div>
+        </div>
+        <div class="wrapper" style="display: none;" id="introduction">
+            <div class="container">
+                <h1>Welcome to ju-snake</h1>
+                <br>
+                <h3>基于Three.js建模3D贪吃蛇，提供两种交互模式</h3>
+                <h3>1. 手势操控(体感)，进入游戏后打开摄像头，通过手部运动完成操作</h3>
+                <h3>2. 传统方向键操作方式</h3>
+                <h3>每吃一个食物,蛇长度加一。当蛇头撞到墙壁或自身时游戏结束</h3>
+                <br><br><br><br><br><br><br>
+                <form class="form">
+                    <button type="submit" id="back-button" >返回上一级</button>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <script src="js/home.js"></script>
+</body>
+</html>
